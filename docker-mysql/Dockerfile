@@ -1,9 +1,5 @@
-FROM ubuntu
+FROM mysql
 
-RUN apt-get update -y && apt-get install -y \
-    nano \
-    mysql-server 
+ENV MYSQL_ROOT_PASSWORD="password"
 
 EXPOSE 3306
-
-CMD ["mysqld","--user","mysql"]

@@ -66,6 +66,11 @@ docker-compose up -d
 Docker Image အားလူံးကို Docker Compose ဖြင့် Docker Container တစ်လူံးတည်ဆောက်ဖို့အတွက်သုံးသည်။
 
 ```bash
+docker-compose stop
+```
+Docker Compose ဖြင့် Run နေတဲ့ Docker Container ကိုရပ်ချင်တဲ့အခါမှာသူံးသည်။
+
+```bash
 docker-compose down
 ```
 Docker Compose ဖြင့် Docker Container တစ်လူံးဖျက်ချင်တဲ့အခါမှာသုံးသည်။

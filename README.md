@@ -46,7 +46,7 @@ docker run -it
 Docker Container ကိုတည်ဆောက်ပြီး Run တဲ့အခါမှာသုံးသည်။
 
 ```bash
-docker build -t .
+docker build -t <name> .
 ```
 Dockerfile ကို Docker Image အဖြစ်ပြောင်းတဲ့အခါမှာသုံးသည်။
 

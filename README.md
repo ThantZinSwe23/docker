@@ -16,6 +16,11 @@ docker rm <container-name> or <container-id>
 Container တစ်ခုဖျက်ချင်တဲ့အခါမှာသူံးသည်။
 
 ```bash
+docker images
+```
+Image အားလုံးကိုထုတ်ပြချင်တဲ့အခါမှာသူံးသည်။
+
+```bash
 docker rmi <image-name> or <image-id>
 ```
 Image တစ်ခုဖျက်ချင်တဲ့အခါမှာသူံးသည်။
